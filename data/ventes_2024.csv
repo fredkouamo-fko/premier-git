@@ -1,0 +1,10 @@
+date;region;produit;quantite;montant
+2024-01-05;Nord;Ordinateur;3;2400.00
+2024-01-12;Sud;Smartphone;5;3250.00
+2024-01-18;Est;Écran;2;560.00
+2024-02-03;Ouest;Clavier;10;450.00
+2024-02-14;Nord;Ordinateur;1;800.00
+2024-02-22;Sud;Souris;8;160.00
+2024-03-01;Est;Smartphone;4;2600.00
+2024-03-15;Ouest;Écran;6;1680.00
+2024-03-28;Nord;Clavier;12;540.00

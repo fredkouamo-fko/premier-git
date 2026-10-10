@@ -1,0 +1,29 @@
+# Secrets et config sensible
+config.py
+.env
+*.key
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Données volumineuses / temporaires (on versionne le petit échantillon, pas les gros exports)
+data/exports/
+data/*.parquet
+*.tmp
+
+# Outils data
+target/
+dbt_packages/
+logs/
+
+# OS / éditeur
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
