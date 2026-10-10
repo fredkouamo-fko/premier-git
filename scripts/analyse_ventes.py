@@ -1,4 +1,4 @@
-"""Analyse des ventes 2024 - projet data equipe. TEST"""
+"""Analyse des ventes 2024 - projet data equipe. TEST==="""
 import csv
 
 def charger_ventes(chemin):
@@ -8,9 +8,6 @@ def charger_ventes(chemin):
 def ca_total(ventes):
     return sum(float(v["montant"]) for v in ventes)
 
-def ca_par_region(ventes)
-    agg = ventes.groupby("region")["ventes"].sum()
-    return agg
 
 
 #Analyse des ventes résumée.
