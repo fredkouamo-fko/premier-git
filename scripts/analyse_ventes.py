@@ -8,6 +8,11 @@ def charger_ventes(chemin):
 def ca_total(ventes):
     return sum(float(v["montant"]) for v in ventes)
 
+def ca_par_region(ventes)
+    agg = ventes.groupby("region")["ventes"].sum()
+    return agg
+
+
 #Analyse des ventes résumée.
 if __name__ == "__main__":
     print(f"Nombre de ventes : {len(ventes)}")
